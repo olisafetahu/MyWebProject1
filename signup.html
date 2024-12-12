@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="index.html" id="navbar__logo"><i class="fas fa-gem"></i>NEXT</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="index.html" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="tech.html" class="navbar__links">Tech</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="products.html" class="navbar__links">Products</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="signup.html" class="button">Sign up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Signup Section-->
+    <div class="container">
+        <h1 class="form-title">Sign Up</h1>
+        <form action="#">
+            <div class="main-user-info">
+                <div class="user-input-box">
+                    <label for="fullName">Full Name</label>
+                    <input type="text"
+                             id="fullName"
+                             name="fullName"
+                             placeholder="Enter Full Name"/>
+                </div>
+                <div class="user-input-box">
+                    <label for="username">Username</label>
+                    <input type="text"
+                             id="username"
+                             name="username"
+                             placeholder="Enter Username"/>
+                </div>
+                <div class="user-input-box">
+                    <label for="email">Email</label>
+                    <input type="text"
+                             id="email"
+                             name="email"
+                             placeholder="Enter Email"/>
+                </div>
+                <div class="user-input-box">
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="text"
+                             id="phoneNumber"
+                             name="phoneNumber"
+                             placeholder="Enter Phone Number"/>
+                </div>
+                <div class="user-input-box">
+                    <label for="password">Password</label>
+                    <input type="text"
+                             id="password"
+                             name="password"
+                             placeholder="Enter Password"/>
+                </div>
+                <div class="user-input-box">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="text"
+                             id="confirmPassword"
+                             name="confirmPassword"
+                             placeholder="Confirm Password"/>
+                </div>
+            </div>
+            <div class="form-submit-btn">
+                <a href="index.html" class="Submit"></a>
+            </div>
+        </form>
+    </div>
+         <script src="signup.js"></script>
+</body>
+</html>
